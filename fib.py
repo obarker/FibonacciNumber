@@ -6,4 +6,9 @@ def fib(n):
     else:
        return fib(n-1) + fib(n-2)
 
-print(fib(9))
+for i in range(50):
+    print(fib(i))
+
+
+
+
